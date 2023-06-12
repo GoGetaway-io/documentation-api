@@ -37,8 +37,8 @@
     "creditCard": string,
     "emailConfig"?: EmailConfig,
     "customer": {
-      "firstName": string,
-      "lastName": string
+      "firstName"?: string,
+      "lastName"?: string
     },
     "email": string,
     "txnId": string,
