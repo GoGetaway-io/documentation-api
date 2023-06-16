@@ -8,6 +8,8 @@
 - [Redirect Link](PAYMENT_INFO.md#redirect-link)
 - [Status code](PAYMENT_INFO.md#status-code)
 
+## Host url - https://bsc.gogateway.io
+
 ## Create payment
  - Request Method: POST
  - Request Path: /api/v4/payment/create
