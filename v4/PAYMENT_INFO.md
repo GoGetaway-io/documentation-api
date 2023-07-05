@@ -32,8 +32,8 @@ If you want us to send emails, set all values to true.
 This is the object :
 ```json
 {
-  emailToClient: boolean,
-  emailToMerchant: boolean
+  "client": boolean,
+  "merchant": boolean
 }
 ```
 
