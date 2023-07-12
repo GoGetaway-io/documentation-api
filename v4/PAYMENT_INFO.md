@@ -14,6 +14,7 @@ txnId, this is the id parameter from the body of the request to create a payment
 - PAYMENT_CANCELED - Payment has been canceled
 - PAYMENT_SUCCESSFUL - Payment was successful
 - PAYMENT_UNDEFINED - Unidentified error
+- TIME_EXPIRED - Payment was not paid within the allotted time.
 
 ### List of currencies and supported payment methods
 * RUB - ALFA, RAIFFEISENBANK, VTB, SBERBANK, OTKRITIE, MKB, TINKOFF
