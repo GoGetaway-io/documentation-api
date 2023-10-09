@@ -180,7 +180,7 @@ signature - encrypted data to check if the request body matches the sent data.
 #### Header
 | Name | Type | Desc |
 | :------ | :------ | :------ |
-| `signature` | `string` | `id:txnId`
+| `signature` | `string` | `id:txnId:amount`
 #### Body
 | Name | Type | Desc |
 | :------ | :------ | :------ |
