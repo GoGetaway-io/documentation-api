@@ -36,7 +36,7 @@
     "amountIn": number,
     "currency": string,
     "paymentMethod": PAYMENTMETHOD,
-    "creditCard": string,
+    "creditCard"?: string,
     "emailConfig"?: EmailConfig,
     "customer": {
       "firstName"?: string,
