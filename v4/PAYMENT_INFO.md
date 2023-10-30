@@ -24,6 +24,7 @@ txnId, this is the id parameter from the body of the request to create a payment
 * UZS - MASTERCARD
 * TRY - MASTERCARD
 * INR - MASTERCARD
+* BRL - MASTERCARD
 
 ## Email config
 This is the configuration object for sending emails.
