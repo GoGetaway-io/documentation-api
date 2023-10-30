@@ -10,6 +10,19 @@
 
 ## Host url - https://bsc.gogateway.io
 
+## Get all history
+ - Request Method: get
+ - Request Path: /api/v4/history/getAll
+
+### Request Description
+Returns basic payment data.
+
+#### Headers
+
+| Name            | Required | Description
+|-----------------|----------|-----------------
+| GOGATEWAY-V4-TOKEN | √        | Token
+
 ## Create payment
  - Request Method: POST
  - Request Path: /api/v4/payment/create
