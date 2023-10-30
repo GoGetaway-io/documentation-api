@@ -17,8 +17,8 @@ txnId, this is the id parameter from the body of the request to create a payment
 - TIME_EXPIRED - Payment was not paid within the allotted time.
 
 ### List of currencies and supported payment methods
-* RUB - ALFA, RAIFFEISENBANK, VTB, SBERBANK, OTKRITIE, MKB, TINKOFF, SBP_SBERBANK, SBP_TINKOFF
-* KZT - KASPI, EURASIAN, JUSAN
+* RUB - ALFA, RAIFFEISENBANK, VTB, SBERBANK, OTKRITIE, MKB, TINKOFF, SBP_SBERBANK, SBP_TINKOFF, MASTERCARD (Bank selection occurs on the payment side)
+* KZT - KASPI, EURASIAN, JUSAN, MASTERCARD (Bank selection occurs on the payment side)
 * EUR - MASTERCARD
 * USD - MASTERCARD
 * UZS - MASTERCARD
