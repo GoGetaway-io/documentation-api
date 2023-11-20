@@ -7,6 +7,8 @@
 - [Customer](PAYMENT_INFO.md#customer)
 - [Redirect Link](PAYMENT_INFO.md#redirect-link)
 - [Status code](PAYMENT_INFO.md#status-code)
+- [Credit card](PAYMENT_INFO.md#credit-card)
+
 
 ## Host url - https://bsc.gogateway.io
 
@@ -60,7 +62,13 @@ Returns basic payment data.
     "lang": string,
     "successLink"?: string,
     "failureLink"?: string,
-    "returnLink"?: string
+    "returnLink"?: string,
+    "card?": {
+      "cardholder": "RIRST LAST",
+      "csc": "123",
+      "pan": "1234567800000099",
+      "expiry": "0725"
+   }
 }
 ```
 
