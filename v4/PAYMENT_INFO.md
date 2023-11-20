@@ -52,6 +52,8 @@ Transmitted in the format:
 ```
 
 ## Credit Card
+This is only needed for USD currency
+
 ```json
 {
   "card": {
