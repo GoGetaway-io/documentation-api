@@ -51,6 +51,18 @@ Transmitted in the format:
 }
 ```
 
+## Credit Card
+```json
+{
+  "card": {
+      "cardholder": "RIRST LAST",
+      "csc": "123",
+      "pan": "1234567800000099",
+      "expiry": "0725"
+  } 
+}
+```
+
 ## Language
 Supported language:
 * ru
