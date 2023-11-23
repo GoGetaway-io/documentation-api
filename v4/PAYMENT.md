@@ -64,10 +64,10 @@ Returns basic payment data.
     "failureLink"?: string,
     "returnLink"?: string,
     "card?": {
-      "cardholder": "RIRST LAST",
-      "csc": "123",
-      "pan": "1234567800000099",
-      "expiry": "0725"
+      "cardholder": "Test User",
+      "csc": "111",
+      "pan": "4596610005864424",
+      "expiry": "0139"
    }
 }
 ```
