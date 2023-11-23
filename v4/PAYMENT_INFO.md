@@ -65,6 +65,16 @@ This is only needed for USD currency
 }
 ```
 
+## Webhook
+The signature is encrypted using sha256.
+
+### Success webhook
+Encrypted data ```id:txnId:amount```
+
+### Canceled webhook
+Encrypted data ```id:txnId```
+
+
 ## Language
 Supported language:
 * ru
