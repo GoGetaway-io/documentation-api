@@ -1,5 +1,5 @@
 ### FAQ
-- [PAYOUTT_TYPE](PAYMENT_INFO.md#payout-type)
+- [PAYOUT_TYPE](PAYMENT_INFO.md#payout-type)
 
 ## Host url - https://bsc.gogateway.io
 
