@@ -79,3 +79,7 @@ Encrypted data ```id:txnId```
 Supported language:
 * ru
 * en
+
+# PAYOUT TYPE
+* bank
+
