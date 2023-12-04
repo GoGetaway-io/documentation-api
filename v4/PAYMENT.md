@@ -208,6 +208,7 @@ signature - encrypted data to check if the request body matches the sent data.
 | `data.id` | `number` | `Payment id`
 | `data.txnId` | `string` | `Transaction's client ID (assigned on the client device)`
 | `data.code` | `string` | `Status code of payment`
+| `data.meta.code` | `string` | `Extended status code of payment`
 
 ### Response
 Status 200 - OK
