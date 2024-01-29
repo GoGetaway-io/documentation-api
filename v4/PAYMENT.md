@@ -67,7 +67,12 @@ Returns basic payment data.
       "cardholder": "Test User",
       "csc": "111",
       "pan": "4596610005864424",
-      "expiry": "0139"
+      "expiry": "0139",
+      "country?": "UK",  // for EUR
+      "city?": "London",  // for EUR
+      "address?": "Baker Street 221b",  // for EUR
+      "zipCode?": "56273",  // for EUR
+      "phone?": "+442079460882" // for EUR
    }
 }
 ```
