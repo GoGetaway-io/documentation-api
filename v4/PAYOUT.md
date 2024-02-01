@@ -20,7 +20,8 @@ Create order for payout.
 #### Request Payload
 
  - Content-Type: application/json
-RUB
+
+## RUB
 ```json
 {
     "amount": number,
@@ -30,7 +31,7 @@ RUB
 }
 ```
 
-##INR
+## INR
 ### PhonePe
 ```json
 {
