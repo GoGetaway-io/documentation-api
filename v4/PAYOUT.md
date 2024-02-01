@@ -46,7 +46,7 @@ Create order for payout.
 }
 ```
 
-### PhonePe
+### Upi
 ```json
 {
     "amount": number,
