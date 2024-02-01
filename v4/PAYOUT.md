@@ -20,13 +20,57 @@ Create order for payout.
 #### Request Payload
 
  - Content-Type: application/json
-
+RUB
 ```json
 {
     "amount": number,
     "currency": string,
     "paymentMethod": PAYOUT_TYPE,
     "requisites": string,
+}
+```
+
+##INR
+### PhonePe
+```json
+{
+    "amount": number,
+    "currency": "INR",
+    "paymentMethod": "MASTERCARD",
+    "paymentInfo": {
+        "type": "phone_pe",
+        "phone": "89995520074",
+        "accountNumber": "ZX872AA"
+    }
+}
+```
+
+### PhonePe
+```json
+{
+    "amount": number,
+    "currency": "INR",
+    "paymentMethod": "MASTERCARD",
+    "paymentInfo": {
+        "type": "upi",
+        "cardholder": "FIRST SECOND",
+        "accountNumber": "ZX872AA"
+    }
+}
+```
+
+### imps
+```json
+{
+    "amount": number,
+    "currency": "INR",
+    "paymentMethod": "MASTERCARD",
+    "paymentInfo": {
+        "type": "imps",
+        "cardholder": "FIRST SECOND",
+        "accountNumber": "ZX872AA",
+        "swiftBic": "RACZHUH1"
+    }
 }
 ```
 
