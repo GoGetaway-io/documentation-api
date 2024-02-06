@@ -195,9 +195,12 @@ Get information about all payouts.
     "success": true,
     "data": [
         {
-        "id": "acb63380-fba7-480d-a5d9-57acdc9afa61",
-        "code": "PROCESSING"
-       }
-    ]
+            "id": "a5047386-6081-4c78-a461-ef1383a6c2dd",
+            "amount": 10000,
+            "currency": "INR",
+            "created": "2023-01-22T09:52:21.992Z",
+            "status": "PROCESSING"
+        }
+   ]
 }
 ```
