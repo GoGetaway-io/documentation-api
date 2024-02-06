@@ -166,3 +166,38 @@ Status 200 - OK
 ```
 {}
 ```
+
+## PAYOUT LIST INFO
+ - Request Method: POST
+ - Request Path: /api/v4/payout/statuses
+
+### Request Description
+Create order for payout.
+
+#### Headers
+
+| Name            | Required | Description
+|-----------------|----------|-----------------
+| GOGATEWAY-V4-TOKEN | √        | Token
+| Content-Type    | √        | application/json
+
+
+### Example Response
+
+#### 1. Success.
+
+ - Status Code: 200 OK
+ - Content-Type: application/json; charset=utf-8
+
+
+```json
+{
+    "success": true,
+    "data": [
+        {
+        "id": "acb63380-fba7-480d-a5d9-57acdc9afa61",
+        "code": "PROCESSING"
+       }
+    ]
+}
+```
