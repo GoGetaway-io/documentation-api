@@ -172,7 +172,7 @@ Status 200 - OK
  - Request Path: /api/v4/payout/statuses
 
 ### Request Description
-Create order for payout.
+Get information about all payouts.
 
 #### Headers
 
