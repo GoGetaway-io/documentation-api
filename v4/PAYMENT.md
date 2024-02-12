@@ -63,7 +63,7 @@ Returns basic payment data.
     "successLink"?: string,
     "failureLink"?: string,
     "returnLink"?: string,
-    "card?": {
+    "card"?: {
       "cardholder": "Test User",
       "csc": "111",
       "pan": "4596610005864424",
@@ -73,6 +73,9 @@ Returns basic payment data.
       "address?": "Baker Street 221b",  // for EUR
       "zipCode?": "56273",  // for EUR
       "phone?": "+442079460882" // for EUR
+   },
+   "extra"?: {
+       "trusted": true/false // for USD
    }
 }
 ```
