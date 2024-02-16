@@ -151,7 +151,7 @@ signature - encrypted data to check if the request body matches the sent data.
 #### Header
 | Name | Type | Desc |
 | :------ | :------ | :------ |
-| `signature` | `string` | `id:amount`
+| `signature` | `string` | `amount:id`
 #### Body
 | Name | Type | Desc |
 | :------ | :------ | :------ |
