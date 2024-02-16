@@ -159,7 +159,7 @@ signature - encrypted data to check if the request body matches the sent data.
 | `data.amount` | `number` | `Sum payment`
 | `data.currency` | `string` | `Currency of the made payment`
 | `data.feeAmount` | `number` | `Payment fee, maybe missing`
-| `data.code` | `string` | `Status code of payment`
+| `meta.code` | `string` | `Status code of payment`
 
 ### Response
 Status 200 - OK
