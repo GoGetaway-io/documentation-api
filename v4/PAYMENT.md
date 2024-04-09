@@ -51,12 +51,7 @@ Returns basic payment data.
     "amountIn": number,
     "currency": string,
     "paymentMethod": PAYMENTMETHOD,
-    "creditCard"?: string,
     "emailConfig"?: EmailConfig,
-    "customer": {
-      "firstName"?: string,
-      "lastName"?: string
-    },
     "email": string,
     "txnId": string,
     "lang": string,
